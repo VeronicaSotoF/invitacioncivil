@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import ImageBanner from "./ImageBanner";
 import { createGlobalStyle } from "styled-components";
 import Banner from "./Banner";
