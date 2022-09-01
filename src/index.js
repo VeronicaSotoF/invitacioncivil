@@ -1,13 +1,4 @@
-import React from "react";
 import ReactDOM from "react-dom";
-import ImageBanner from "./ImageBanner";
-
-const App = () => {
-  return (
-    <div>
-      <ImageBanner />
-    </div>
-  );
-};
+import App from "./components/App";
 
 ReactDOM.render(<App />, document.querySelector("#root"));
