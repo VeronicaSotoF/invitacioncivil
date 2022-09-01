@@ -11,7 +11,7 @@ const ImageBannerContainer = styled.div`
 const ImageBanner = () => {
   return (
     <ImageBannerContainer>
-      <img src={bodaCivil}></img>
+      <img src={bodaCivil} alt="banner"></img>
     </ImageBannerContainer>
   );
 };
