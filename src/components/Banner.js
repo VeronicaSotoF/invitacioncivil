@@ -150,6 +150,7 @@ const Banner = (props) => {
         rotate={showParentsToggle}
         showHideIcon={
           <img
+            alt=""
             //src={showParentsToggle ? upImg : downImg}
             className="arrow-logo"
             src={upImg}
