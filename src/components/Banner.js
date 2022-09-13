@@ -42,15 +42,16 @@ const BannerContainer = styled.div`
   }
   @keyframes AnimateBG {
     0% {
+      background: var(--main-bg-color);
     }
     50% {
-      background: var(--main-bg-color);
+      background: var(--secondary-bg-color);
     }
     75% {
       background: var(--secondary-bg-color);
     }
     100% {
-      background: transparent;
+      background: var(--main-bg-color);
     }
   }
   .parents-section {

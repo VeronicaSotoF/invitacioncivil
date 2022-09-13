@@ -1,18 +1,17 @@
 import React from "react";
-import bodaCivil from "../assets/bodaCivil.jpeg";
+import foto from "../assets/foto.jpg";
 import styled from "styled-components";
 
 const ImageBannerContainer = styled.div`
-  background: rgba(15, 15, 15, 0.96);
+  
   img {
     max-width: 100%;
-  }
 `;
 
 const ImageBanner = () => {
   return (
     <ImageBannerContainer>
-      <img src={bodaCivil} alt="banner"></img>
+      <img src={foto} alt="banner"></img>
     </ImageBannerContainer>
   );
 };
