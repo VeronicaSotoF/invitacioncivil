@@ -74,9 +74,9 @@ const ContentCard = (props) => {
           />
         </div>
       </div>
-      <div className="image-container">
+      {/* <div className="image-container">
         <img alt="map" className="map-picture" src={props.mapImg} />
-      </div>
+      </div> */}
     </ContentCardContainer>
   );
 };
