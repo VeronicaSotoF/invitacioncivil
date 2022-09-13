@@ -33,9 +33,10 @@ const ContentCardContainer = styled.div`
     color: var(--accent-color);
   }
 
-  .external > span {
+  .external > img {
     vertical-align: unset;
     transform: translate3d(3px, 2.4px, 10px);
+    filter: grayscale(1);
   }
 `;
 
@@ -44,7 +45,13 @@ const ContentCard = (props) => {
     <ContentCardContainer className="glass">
       {props.logo && (
         <div className="image-container">
-          <img className="logo" src={props.logo} width={70} height={80} />
+          <img
+            alt="logo"
+            className="logo"
+            src={props.logo}
+            width={70}
+            height={80}
+          />
         </div>
       )}
       <h3>{props.title}</h3>
@@ -61,13 +68,14 @@ const ContentCard = (props) => {
             id="external"
             className="external-link"
             src={props.linkImg}
+            alt="external img"
             width={15}
             height={15}
           />
         </div>
       </div>
       <div className="image-container">
-        <img className="map-picture" src={props.mapImg} />
+        <img alt="map" className="map-picture" src={props.mapImg} />
       </div>
     </ContentCardContainer>
   );

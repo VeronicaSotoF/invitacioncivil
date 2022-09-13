@@ -50,6 +50,7 @@ const Regalos = (props) => {
           </a>
           <div className="external">
             <img
+              alt="external img"
               id="external"
               className="external-link"
               src={externalLink}

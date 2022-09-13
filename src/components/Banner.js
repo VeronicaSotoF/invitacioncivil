@@ -145,7 +145,7 @@ const Banner = (props) => {
       </div>
       <SubBanner
         title="¡Estás Invitado!"
-        date="22 Octubre 2023"
+        date="22 Octubre 2022"
         phrase="Será un honor que seas parte de este momento tan especial."
         showParents={setShowparents}
         rotate={showParentsToggle}

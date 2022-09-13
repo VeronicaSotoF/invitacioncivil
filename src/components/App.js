@@ -1,5 +1,4 @@
 import React from "react";
-import ImageBanner from "./ImageBanner";
 import { createGlobalStyle } from "styled-components";
 import Banner from "./Banner";
 import Regalos from "./Regalos";
