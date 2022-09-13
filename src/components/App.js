@@ -52,7 +52,10 @@ const App = () => {
       <Banner title={"Verónica y Guillermo"} subtitle="NOS CASAMOS" />
       {/* <ImageBanner /> */}
       <InfoSection />
-      <Regalos phrase="Tu presencia es nuestro mayor regalo, pero si quieres tener un detalle con nosotros, puedes visitar nuestra mesa de regalos." />
+      <Regalos
+        phrase="Tu presencia es nuestro mayor regalo, pero si quieres tener un detalle con nosotros, puedes visitar nuestra mesa de regalos."
+        url="https://mesaderegalos.liverpool.com.mx/milistaderegalos/50957253"
+      />
     </div>
   );
 };
